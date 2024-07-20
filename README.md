@@ -1,4 +1,5 @@
-About This Project
+About This Project:
+
 	This project builds and displays a tree control populated with data from input text file.
 	Attached input file TreeData.json contains data to display human anatomy images and videos 
 	organized by human systems i.e skeletal, muscular, nervous, etc.
@@ -9,6 +10,7 @@ About This Project
     Each node is positioned in the tree based on its parent and its index
 	under the parent.It is assumed root (top parent) node exists before tree nodes are inserted
     and at least one of them is a child of root node.
+    
 	Each tree node is build using the following JSON object:
 	{
 		"parent":"Skeletal",      //Name of parent node
@@ -21,9 +23,9 @@ About This Project
 		"search":""                //String to be used when tree is searched
 	}
 	  
-Built With
+Built With:
 	Java and Java Swing library.
-Usage
+Usage:
     Tree can be modified by selecting Edit Tree command from main menu and dragging and dropping 
 	nodes. Node's data can be edited using right-click popup menu in tree view. Tree can also be build manually
 	(without using input JSON file) by creating empty tree and adding nodes to it using Edit/Add node menu.
